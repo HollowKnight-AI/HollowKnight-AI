@@ -1,0 +1,9 @@
+# Local working files and private material
+work/
+private/
+.env
+.env.*
+*.key
+*.pem
+.DS_Store
+Thumbs.db
