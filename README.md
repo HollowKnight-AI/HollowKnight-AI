@@ -10,13 +10,13 @@ Theoretical Physics · Correlated Topological Quantum Matter · Materials Calcul
 
 ## 🎓 教育背景 / Education
 
-| 阶段 / 周期 | 学校 / 科研院所 | 院系与方向 | 徽标 / 标志 |
-| :--- | :--- | :--- | :--- |
-| **硕博连读**<br>`2027 - 至今` | **中国科学院大学 / 中国科学院物理研究所**<br>*(Institute of Physics, CAS)* | 理论物理 (T03组)<br>关联拓扑量子物态 · 材料计算 | <img src="https://www.cas.cn/images/cas_logo.png" height="38"> <img src="http://www.iop.cas.cn/images/logo.png" height="38"> |
-| **本科**<br>`2023 - 2027` | **天津大学**<br>*(Tianjin University)* | 应用物理学<br>严济慈物理学英才班 | <img src="https://www.tju.edu.cn/images/logo.png" height="38"> |
-| **高中**<br>`2020 - 2023` | **景德镇市第一中学**<br>*(Jingdezhen No.1 High School)* | 高中部 | <img src="https://www.jdzsyz.com/images/logo.png" height="38"> |
-| **初中**<br>`2017 - 2020` | **景德镇市第五中学** | 初中部 | <img src="https://www.jdz5z.com/images/logo.png" height="38"> |
-| **小学**<br>`2011 - 2017` | **景德镇市第十一小学** | 小学阶段 | <img src="https://www.jdz11x.com/images/logo.png" height="38"> |
+| 阶段 / 周期 | 学校 / 科研院所 | 院系与方向 | 标识 |
+| :--- | :--- | :--- | :---: |
+| **硕博连读**<br>`2027 – 至今` | **中国科学院大学 / 中国科学院物理研究所**<br>*(Institute of Physics, CAS)* | 理论物理 (T03组)<br>关联拓扑量子物态 · 材料计算 | `CAS · IOP` |
+| **本科**<br>`2023 – 2027` | **天津大学**<br>*(Tianjin University)* | 应用物理学<br>严济慈物理学英才班 | `TJU` |
+| **高中**<br>`2020 – 2023` | **景德镇市第一中学**<br>*(Jingdezhen No.1 High School)* | 高中部 | `景德镇一中` |
+| **初中**<br>`2017 – 2020` | **景德镇市第五中学** | 初中部 | `景德镇五中` |
+| **小学**<br>`2011 – 2017` | **景德镇市第十一小学** | 小学阶段 | `景德镇十一小` |
 
 这里是我的个人档案。我会持续修改、补充，让它随着我的经历一起生长。
 
@@ -24,4 +24,4 @@ Theoretical Physics · Correlated Topological Quantum Matter · Materials Calcul
 
 ## 从这里认识我
 
-- [关于我](ABOUT.md)：我的关注点，以及建立这个档案的原因。
+- [关于我](ABOUT.md): 我的关注点，以及建立这个档案的原因。
