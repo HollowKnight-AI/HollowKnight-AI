@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "id": "baoyan-application-cv",
+  "received_date": "2026-10-21",
+  "document_date": null,
+  "document_stage": "保研申请时期，具体制作日期未提供",
+  "public_authorization": "这个是我当时为了保研做的个人简历和源代码，你看情况加进去吧，这个也可以公开",
+  "original_source_zip": "source-original.zip",
+  "main_tex": "source/resume.tex",
+  "source_entry_count": 33,
+  "files": [
+    {
+      "path": "cv/baoyan-application/resume-public.pdf",
+      "bytes": 324055,
+      "sha256": "b4728343ea797d1378a871667d41071537cfddc39977f541077b3e30c38ed645",
+      "git_blob_sha": "0412a8af69256430a435bbfc7c019532ec65efb0",
+      "binary": true
+    },
+    {
+      "path": "cv/baoyan-application/source/awesome-cv.cls",
+      "bytes": 26723,
+      "sha256": "00552ec6c74252f3a6bb59136cad04413aa55edde8900543bffdafcdfe2402f8",
+      "git_blob_sha": "48d3771c37d56120f445ed91946ed7242ad8018c",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/coverletter.tex",
+      "bytes": 5862,
+      "sha256": "481ceacbbc6d657466d0777ce7577e2ae613e87fd10f4e2a15ea0ae225ea8806",
+      "git_blob_sha": "26b988d3b8c09e7986537f650613902c1c878459",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/cv/committees.tex",
+      "bytes": 1493,
+      "sha256": "21eed5e297bac14c9ebcec757fd40adfd7148f3c668e49ea0afb95f092c7af64",
+      "git_blob_sha": "41f452d022b0bd11b255b09c4bb29f739eaa43a3",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/cv/education.tex",
+      "bytes": 921,
+      "sha256": "a516cf4afe62702e62138b8d6becc99421ab86ae4ac255de55dd7f996636787c",
+      "git_blob_sha": "71385283b442e750d7cfa22c595854a1e66f21ec",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/cv/experience.tex",
+      "bytes": 7129,
+      "sha256": "2dfffa095b365cb5f9f52721e75b5930571dc4bc3d9331be8687c9df60d707d7",
+      "git_blob_sha": "674e14c2e4670ab88bbc8f647a088242f8a4cd9c",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/cv/extracurricular.tex",
+      "bytes": 3751,
+      "sha256": "3d9184d2d7d3bf66d1864b4b4465f2f977beddc6542f5ed80d239c0516b9a659",
+      "git_blob_sha": "750890014a0331f761cb12dfd09eec326d56e975",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/cv/honors.tex",
+      "bytes": 3942,
+      "sha256": "60c230566b7ae19b55412746b61cbf7be2ce0dcbefef16a8cb43e52a6af4eee5",
+      "git_blob_sha": "57d643fd230e51ead01b43ad9dd2f39ca7f4d902",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/cv/presentation.tex",
+      "bytes": 1896,
+      "sha256": "57d50c6c0e5cc23be3265641bf4749a86a5590b11268d2f0fef725aabd1df7ec",
+      "git_blob_sha": "a6d153653f35a79b63a1cee27d4bb82a481909e4",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/cv/skills.tex",
+      "bytes": 912,
+      "sha256": "34600d05046335bf93cfd28e8dbf4cbe86d4921bb28b746d3a0e1e90b4175b94",
+      "git_blob_sha": "b3a880d562bcd3146e5b043125397273fd3fa050",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/cv/writing.tex",
+      "bytes": 1226,
+      "sha256": "75f1383017c2054b31c2e527e5dd93edd32c88be8679e02d68a35285c93fd91c",
+      "git_blob_sha": "7817c7546bffab4aac4cd78f011098a0973731e1",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/cv.tex",
+      "bytes": 3607,
+      "sha256": "194de9d79344263cebd2397e70ce13477801115db699159ee2b0de9930d89ac4",
+      "git_blob_sha": "0e0130ddf1d99badd19c0997ea5055e93cc803cb",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/fonts/FontAwesome.ttf",
+      "bytes": 165548,
+      "sha256": "aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8",
+      "git_blob_sha": "35acda2fa1196aad98c2adf4378a7611dd713aa3",
+      "binary": true
+    },
+    {
+      "path": "cv/baoyan-application/source/fonts/Roboto-Bold.ttf",
+      "bytes": 163448,
+      "sha256": "24571503140760240924dcd1238f77e7cd0454c0d8b0793990cefa2fad71471f",
+      "git_blob_sha": "91ec21227866ca9d1cf77ec13660b7b85ec900dd",
+      "binary": true
+    },
+    {
+      "path": "cv/baoyan-application/source/fonts/Roboto-BoldItalic.ttf",
+      "bytes": 165864,
+      "sha256": "165a6d02fd8973703787feeef5319b7fd8cb3f665a3c1e702ef0ca49701547c9",
+      "git_blob_sha": "4013bf88a5e7b4e9ca4f8e53774d4f0a1346b52b",
+      "binary": true
+    },
+    {
+      "path": "cv/baoyan-application/source/fonts/Roboto-Italic.ttf",
+      "bytes": 160736,
+      "sha256": "470123c6fb5d6c0005431c0f5390742497c55087361a7636b7e82eb35635ded7",
+      "git_blob_sha": "9f49ffd869194a92c2e71895169488cb4d037a00",
+      "binary": true
+    },
+    {
+      "path": "cv/baoyan-application/source/fonts/Roboto-Light.ttf",
+      "bytes": 162636,
+      "sha256": "94df4e4976db8ddaec27f8e8c33eef912e744fb200ca09051794b38e5a502fc0",
+      "git_blob_sha": "d43e943312e0f2c653815dd791d93f94f0abd73f",
+      "binary": true
+    },
+    {
+      "path": "cv/baoyan-application/source/fonts/Roboto-LightItalic.ttf",
+      "bytes": 163248,
+      "sha256": "709ab3c8feaa5640b3a14493e1c2d27509df5aa5d14b8b86bd431ab60ac53a69",
+      "git_blob_sha": "c11442ce5c5c3d1ba5880fa6fb778af61004ff71",
+      "binary": true
+    },
+    {
+      "path": "cv/baoyan-application/source/fonts/Roboto-Medium.ttf",
+      "bytes": 160696,
+      "sha256": "02868d6a7e80d4e7836b6263dd50d26a63e923a1223c9e027aad6dc2501c27cc",
+      "git_blob_sha": "87983419893a8952c3f286dc56d37fb94e320da0",
+      "binary": true
+    },
+    {
+      "path": "cv/baoyan-application/source/fonts/Roboto-MediumItalic.ttf",
+      "bytes": 163940,
+      "sha256": "27f4345bc02f3cdec1522bfeae70aced6bdf217d40878108cfe2baa535d04fa4",
+      "git_blob_sha": "5e866375e6d46984cca27f4b62d0e7082388763b",
+      "binary": true
+    },
+    {
+      "path": "cv/baoyan-application/source/fonts/Roboto-Regular.ttf",
+      "bytes": 158604,
+      "sha256": "16466ef65064e6f3885a6d2806b8949ac1ac38b524dd0cf8fc96565eb4cc28e8",
+      "git_blob_sha": "7d9a6c4c32d7e920b549caf531e390733496b6e0",
+      "binary": true
+    },
+    {
+      "path": "cv/baoyan-application/source/fonts/Roboto-Thin.ttf",
+      "bytes": 122512,
+      "sha256": "2843669daf030733f6b7c541a98ebbff5ce5c2d8cbae423bd8d278a36e169399",
+      "git_blob_sha": "861d63adb6dee256c5d63879c323d27b5b0b047b",
+      "binary": true
+    },
+    {
+      "path": "cv/baoyan-application/source/fonts/Roboto-ThinItalic.ttf",
+      "bytes": 125884,
+      "sha256": "55031ef14f6c49947255ab6e0ef7112938cb1ecb903f85553ddc7842422a5841",
+      "git_blob_sha": "e65145f371d04239e075d1841b0f5a98238ccc3c",
+      "binary": true
+    },
+    {
+      "path": "cv/baoyan-application/source/profile.png",
+      "bytes": 73891,
+      "sha256": "e08ff7572fdd574c8121a34265d895321b0cf2a9359fa9b35bdcf5612eab9193",
+      "git_blob_sha": "b04f50291efd47f6815856f8fda415bbdfee0828",
+      "binary": true
+    },
+    {
+      "path": "cv/baoyan-application/source/README.md",
+      "bytes": 5133,
+      "sha256": "eee54e0c6216f0a37832aa9377c6f9af1cfcf928f92137edd69790ffb24d10d5",
+      "git_blob_sha": "bedf7e413108cffeeb248e452b3ae059e2d453e0",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/resume/committees.tex",
+      "bytes": 858,
+      "sha256": "cd555724c8a2dbac5dc3fe3f517b54e993e0c54e187d0af1a390d5533360eda5",
+      "git_blob_sha": "3091b088bc520f9665519f9d2a435fa0ce7e1659",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/resume/education.tex",
+      "bytes": 1633,
+      "sha256": "57670948803342bde7d88bce0504d692c03fce41dfb25924afb9914bfa7b1afe",
+      "git_blob_sha": "8da72e0f72c2ea984081a022ab1a6a22380bca5c",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/resume/experience.tex",
+      "bytes": 4247,
+      "sha256": "172b958ca7a71c701feaea623a8bb00e0cc7f23618d8f1d6517b8229fe0650f6",
+      "git_blob_sha": "09d43a62fe4077dd43f37e90b864b8b3400eb56f",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/resume/extracurricular.tex",
+      "bytes": 1846,
+      "sha256": "a79f2e31200eaa53b2c35a3293ad303b35f9c57527886d1268fd3908dc286e7b",
+      "git_blob_sha": "24161e01f10cac9e966df4876b3afe71553a520c",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/resume/honors.tex",
+      "bytes": 2813,
+      "sha256": "c439500ea855ee591403054917e410fdc38761d817be4666ff6150af8b5af4cf",
+      "git_blob_sha": "7e0329e75ee5b46a357c82e8d622440bfb24e2f3",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/resume/presentation.tex",
+      "bytes": 1525,
+      "sha256": "cb6b7388960c67a094f78983509e2bee9f96a94f0a9b7a2c0910be12995d0c6c",
+      "git_blob_sha": "910e4b2102778a8197776a792a6421a43d9b8e65",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/resume/summary.tex",
+      "bytes": 888,
+      "sha256": "940d1821ab5e110e89b69cecc977b597545557cdff01457148374e26a9b94171",
+      "git_blob_sha": "e12968a0671a66a4e9987a058f3937db148a275e",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/resume/writing.tex",
+      "bytes": 860,
+      "sha256": "6fcbe0526753bc821281a3e4856eb5073bf09e8b35f44c47759aed61d2d937ca",
+      "git_blob_sha": "b1a840b7e3b8982da1d7f6c6ab71fdfd5f3609ef",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source/resume.tex",
+      "bytes": 4302,
+      "sha256": "169b1b0577c978d2b8ea7778ed0c25e8eb3675e0bf0f2d97b9b378df05c45145",
+      "git_blob_sha": "4b33a978053077b4afa95a22a77296ecf8969088",
+      "binary": false
+    },
+    {
+      "path": "cv/baoyan-application/source-original.zip",
+      "bytes": 1008878,
+      "sha256": "50a42a0630cf0bf98419538253285fb47fcf0fdc80de994e724d4be026cf41e6",
+      "git_blob_sha": "cbdbfd5e8a24df5b9ce5a3a354d5589ce19feb73",
+      "binary": true
+    }
+  ],
+  "known_differences": [
+    {
+      "field": "王景导师职称",
+      "pdf": "教授",
+      "source": "副教授"
+    },
+    {
+      "field": "基金题名用字",
+      "pdf": "杂志散射",
+      "source": "杂质散射"
+    }
+  ],
+  "compilation_verified": false,
+  "notes": [
+    "原始源码ZIP和解压源码按收到的字节保存；PDF公开版已按本人确认将社团服务人次更正为1200。",
+    "收到的原PDF仅在本地保留，不作为公开下载；网页摘要和公开PDF采用更正后的数字。",
+    "cv.tex、coverletter.tex及未被resume.tex使用的模板示例，不代表本人的履历。",
+    "文档中的至今、申请意向、论文进度属于历史材料，不能当作当前状态。"
+  ],
+  "public_pdf": "resume-public.pdf",
+  "correction": {
+    "date": "2026-10-21",
+    "field": "校园经历：累计服务学生人次",
+    "confirmed_value": "1200人次",
+    "source": "本人本次对话明确确认",
+    "public_pdf_corrected": true
+  }
+}

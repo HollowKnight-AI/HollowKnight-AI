@@ -15,12 +15,16 @@ Theoretical Physics · Correlated Topological Quantum Matter · Materials Calcul
 | 想看什么 | 入口 |
 | --- | --- |
 | 了解我与我的关注点 | [关于我](ABOUT.md) |
+| 本科经历与保研申请材料 | [简历档案与源码](notes/2026-10-21-baoyan-cv.md) |
 | 看最近在做什么 | [近期状态](NOW.md) |
 | 看学习、实践和想法 | [记录与思考](JOURNAL.md) |
 | 看做过的事与公开成果 | [实践与作品](PROJECTS.md) |
 | 与我协作，或让新 AI 了解背景 | [协作偏好](WORK_WITH_ME.md) · [AI 摘要](AI_CONTEXT.md) · [使用说明](USE_WITH_AI.md) |
 
 ## 最近留下的记录
+
+**2026-10-21 · 归档** · [保研申请简历与本科经历](notes/2026-10-21-baoyan-cv.md)  
+整理申请阶段的学业、科研、实习和社团经历，附更正后的 PDF 与 LaTeX 源码。
 
 **2026-10-15—16 · 旅行** · [泰山之旅](notes/2026-10-15-taishan.md)  
 两天的泰山之行，山景、合影与沿途见闻。10 月 21 日归档，共 15 张图片。

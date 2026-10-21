@@ -44,12 +44,21 @@
       "id": "notes/2026-10-15-taishan.md",
       "title": "泰山之旅",
       "path": "notes/2026-10-15-taishan.html"
+    },
+    {
+      "id": "notes/2026-10-21-baoyan-cv.md",
+      "title": "保研简历与本科经历",
+      "path": "notes/2026-10-21-baoyan-cv.html"
     }
   ],
   "edges": [
     {
       "source": "README.md",
       "target": "ABOUT.md"
+    },
+    {
+      "source": "README.md",
+      "target": "notes/2026-10-21-baoyan-cv.md"
     },
     {
       "source": "README.md",
@@ -93,6 +102,10 @@
     },
     {
       "source": "ABOUT.md",
+      "target": "notes/2026-10-21-baoyan-cv.md"
+    },
+    {
+      "source": "ABOUT.md",
       "target": "PROJECTS.md"
     },
     {
@@ -125,6 +138,10 @@
     },
     {
       "source": "PROJECTS.md",
+      "target": "notes/2026-10-21-baoyan-cv.md"
+    },
+    {
+      "source": "PROJECTS.md",
       "target": "notes/2026-10-21-public-profile.md"
     },
     {
@@ -138,6 +155,10 @@
     {
       "source": "JOURNAL.md",
       "target": "PROJECTS.md"
+    },
+    {
+      "source": "JOURNAL.md",
+      "target": "notes/2026-10-21-baoyan-cv.md"
     },
     {
       "source": "JOURNAL.md",
@@ -146,6 +167,10 @@
     {
       "source": "JOURNAL.md",
       "target": "notes/2026-10-21-public-profile.md"
+    },
+    {
+      "source": "AI_CONTEXT.md",
+      "target": "notes/2026-10-21-baoyan-cv.md"
     },
     {
       "source": "AI_CONTEXT.md",
@@ -182,6 +207,22 @@
     {
       "source": "notes/2026-10-15-taishan.md",
       "target": "JOURNAL.md"
+    },
+    {
+      "source": "notes/2026-10-21-baoyan-cv.md",
+      "target": "README.md"
+    },
+    {
+      "source": "notes/2026-10-21-baoyan-cv.md",
+      "target": "ABOUT.md"
+    },
+    {
+      "source": "notes/2026-10-21-baoyan-cv.md",
+      "target": "PROJECTS.md"
+    },
+    {
+      "source": "notes/2026-10-21-baoyan-cv.md",
+      "target": "NOW.md"
     }
   ]
 }
