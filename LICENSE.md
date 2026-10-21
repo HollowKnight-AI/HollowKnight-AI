@@ -4,7 +4,7 @@
 
 署名：王鑫烨。
 
-来源：[王鑫烨的个人档案](https://github.com/laylafjbgwuehrebqgsd-ui/laylafjbgwuehrebqgsd-ui)。
+来源：[王鑫烨的个人档案](https://github.com/HollowKnight-AI/HollowKnight-AI)。
 
 - [许可说明](https://creativecommons.org/licenses/by/4.0/)
 - [完整许可条款](https://creativecommons.org/licenses/by/4.0/legalcode)
