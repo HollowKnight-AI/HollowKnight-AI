@@ -23,7 +23,7 @@ Theoretical Physics · Correlated Topological Quantum Matter · Materials Calcul
 **2026-10-21** · [让个人档案开始积累记录](notes/2026-10-21-public-profile.md)  
 从个人介绍出发，加入短笔记、实践记录和可供不同 AI 读取的背景资料。
 
-[全部记录](JOURNAL.md) · [怎样写下一篇](GUIDE.md) · [仓库更新](CHANGELOG.md)
+[全部记录](JOURNAL.md) · [怎样让 AI 帮我记录](GUIDE.md) · [仓库更新](CHANGELOG.md)
 
 ## 🎓 教育背景 / Education
 
