@@ -1,0 +1,137 @@
+{
+  "repository": "HollowKnight-AI/HollowKnight-AI",
+  "updated": "2026-10-21",
+  "profile": {
+    "name": "王鑫烨",
+    "login": "HollowKnight-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/229240574?v=4",
+    "role": "物理学生 · AI for Science",
+    "intro": "我是天津大学应用物理专业大四学生，已推免至中国科学院物理研究所，计划于 2027 年进入理论物理方向硕博连读阶段。",
+    "statement": "探索物理与 AI，也收集旅途、想法和普通日子。我希望在互联网上留下属于自己的印记，让经历、知识与变化可以被找到，也能被不同的 AI 读懂。",
+    "email": "3023210063@tju.edu.cn",
+    "personal_email": "laylafjbgwuehrebqgsd@gmail.com"
+  },
+  "interests": [
+    {
+      "name": "理论物理",
+      "symbol": "ψ",
+      "description": "关联拓扑量子物态与材料计算",
+      "url": "PROJECTS.html"
+    },
+    {
+      "name": "AI for Science",
+      "symbol": "✦",
+      "description": "人工智能与科学研究的交汇",
+      "url": "ABOUT.html"
+    },
+    {
+      "name": "科技与金融",
+      "symbol": "↗",
+      "description": "关注技术变化，理解市场与世界",
+      "url": "NOW.html"
+    }
+  ],
+  "education": [
+    {
+      "title": "中国科学院物理研究所 / 中国科学院大学",
+      "date": "2027 年拟入学 · 已推免",
+      "description": "理论物理方向硕博连读；关联拓扑量子物态与材料计算。尚未入学。"
+    },
+    {
+      "title": "天津大学 · 应用物理学",
+      "date": "2023—2027 · 本科在读",
+      "description": "严济慈物理学英才班。申请阶段 GPA 3.8 / 4.0，专业排名 4 / 75。"
+    },
+    {
+      "title": "景德镇市第一中学",
+      "date": "2020—2023",
+      "description": "高中阶段。"
+    }
+  ],
+  "experience": [
+    {
+      "title": "凝聚态理论科研",
+      "date": "自 2024 年 9 月 · 据申请阶段记录",
+      "description": "QBCP 体系、QED 有效场论、单圈计算与重整化群分析。已整理推导笔记；论文当前状态待更新。"
+    },
+    {
+      "title": "中国科学院物理研究所 · 科研实习",
+      "date": "2025 年 7—9 月",
+      "description": "镍基超导薄膜生长与调控；PLD 生长、XRD 物相鉴定，以及相关实验的观摩学习。"
+    },
+    {
+      "title": "北洋数学研究社 · 组织与教学",
+      "date": "据保研申请简历",
+      "description": "参与社团组织与讲师团工作，主讲微积分技巧与线性代数进阶，累计服务学生 1200 人次。"
+    }
+  ],
+  "tools": [
+    "Python",
+    "MATLAB",
+    "C++",
+    "LaTeX",
+    "Mathematica",
+    "Origin",
+    "Zotero"
+  ],
+  "projects": [
+    {
+      "title": "HollowKnight-AI · 公开个人档案",
+      "description": "个人背景、文章与原件，以及供不同 AI 接手的共同入口。",
+      "category": "数字档案",
+      "kind": "archive",
+      "url": "https://github.com/HollowKnight-AI/HollowKnight-AI",
+      "language": "TeX / Markdown",
+      "symbol": "{ me }"
+    },
+    {
+      "title": "保研申请简历与 LaTeX 源码",
+      "description": "学业、科研、实习与社团经历。PDF 已按本人确认更正为 1200 人次。",
+      "category": "学业与履历",
+      "kind": "cv",
+      "url": "notes/2026-10-21-baoyan-cv.html",
+      "language": "LaTeX",
+      "symbol": "CV"
+    },
+    {
+      "title": "泰山之旅 · 图文档案",
+      "description": "2026 年 10 月 15—16 日，15 张图片与一条朋友圈，保存旅途的样子。",
+      "category": "旅行",
+      "kind": "travel",
+      "url": "notes/2026-10-15-taishan.html",
+      "language": "照片与文字",
+      "image": "https://raw.githubusercontent.com/HollowKnight-AI/HollowKnight-AI/main/media/taishan-2026-10/05-6903a23a63a1.jpg",
+      "symbol": "山海"
+    }
+  ],
+  "posts": [
+    {
+      "title": "保研申请简历与本科经历",
+      "date": "2026-10-21 · 归档",
+      "description": "从申请阶段的材料回看学业、科研、实习和社团。附 PDF 与源代码。",
+      "url": "notes/2026-10-21-baoyan-cv.html",
+      "kind": "cv",
+      "category": "学业与履历",
+      "symbol": "CV"
+    },
+    {
+      "title": "泰山之旅",
+      "date": "2026-10-15—16 · 旅行",
+      "description": "豪情在天，这😎装逼效果不错😁。两天的泰山之行，玩得很开心。",
+      "url": "notes/2026-10-15-taishan.html",
+      "kind": "travel",
+      "category": "旅行",
+      "image": "https://raw.githubusercontent.com/HollowKnight-AI/HollowKnight-AI/main/media/taishan-2026-10/04-1c58ce8ee9b5.jpg",
+      "symbol": "山海"
+    },
+    {
+      "title": "让个人档案开始积累记录",
+      "date": "2026-10-21",
+      "description": "把背景、实践和思考维护在可以持续修改、供不同 AI 读取的地方。",
+      "url": "notes/2026-10-21-public-profile.html",
+      "kind": "archive",
+      "category": "数字档案",
+      "symbol": "{ me }"
+    }
+  ]
+}

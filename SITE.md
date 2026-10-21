@@ -24,3 +24,13 @@ python -m http.server 8766 --bind 127.0.0.1 --directory docs
 当前有全文关键词搜索、反向链接、可点击的关联图、RSS、代码块、表格与手机布局。公式源码会保留；浏览器中的专业数学排版和语义搜索尚未接入。
 
 若删除公开页面，应同时删除 `site.json` 中对应项和 `docs/` 中旧的生成页面；普通文件删除不清除 Git 历史。程序不会自行清空目录。
+
+
+## 两套公开首页
+
+- 默认 `index.html?style=vcard`：vCard 名片、真实履历时间线、作品分类筛选和图文记录分栏。
+- `github.html?style=github`：GitHub personal-website 的侧栏资料、repo/topic/post 卡片与纵向笔记索引。
+- 顶部可随时切换。浏览器记住访客上次选择；明确带 style 参数的分享链接优先，不强制对方采用自己的设置。
+- `site-home.json` 是两版共用的公开数据；`tools/render_homes.py` 构建不同 HTML。新增记录先维护原文与 `site.json`，再同步公开主页摘要，不将未发布材料塞入清单。
+- 原 Markdown 首页保留为 `notebook.html`，全部旧文章 URL 不变，搜索、关联图与 RSS 保留。详文采用共用阅读版式，主页结构按两种风格独立组织。
+- 实际移植与来源、改动、MIT 许可见 [DESIGN.md](DESIGN.md)，原始上游文件保留在 `vendor/`。私密资料不得作为主页数据或构建输入。

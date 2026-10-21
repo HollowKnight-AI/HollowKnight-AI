@@ -80,4 +80,52 @@ class SiteTests(unittest.TestCase):
         self.assertFalse((self.root/'docs').exists())
 
 
+class DualHomeTests(unittest.TestCase):
+    def setUp(self):
+        import shutil
+        parent=ROOT/'work'
+        parent.mkdir(exist_ok=True)
+        self.tmp=tempfile.TemporaryDirectory(dir=parent)
+        self.addCleanup(self.tmp.cleanup)
+        self.root=Path(self.tmp.name)
+        shutil.copytree(ROOT/'site-assets/home',self.root/'site-assets/home')
+        self.data=json.loads((ROOT/'site-home.json').read_text(encoding='utf8'))
+        self.compiled={p['source']:p for p in json.loads((ROOT/'site.json').read_text(encoding='utf8'))['pages']}
+        spec=importlib.util.spec_from_file_location('render_homes',ROOT/'tools/render_homes.py')
+        self.homes=importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(self.homes)
+
+    def render(self):
+        (self.root/'site-home.json').write_text(json.dumps(self.data,ensure_ascii=False),encoding='utf8')
+        return self.homes.render(self.root,self.compiled)
+
+    def test_two_distinct_structures_share_actual_data_and_upstream_css(self):
+        out=self.render()
+        self.assertIn('data-page="履历"',out['index.html'])
+        self.assertNotIn('data-page="履历"',out['github.html'])
+        self.assertIn('gh-project-grid',out['github.html'])
+        self.assertIn('data-filter-item',out['index.html'])
+        self.assertEqual(out['home-assets/vcard.css'],(ROOT/'vendor/vcard/assets/css/style.css').read_text(encoding='utf8'))
+        for row in self.data['projects']:
+            for name in ('index.html','github.html'):
+                self.assertIn(row['url'],out[name])
+        self.assertNotIn('Richard hanrick',out['index.html'])
+        self.assertNotIn('1200%',out['index.html'])
+
+    def test_one_data_revision_updates_both_views_and_escapes_markup(self):
+        self.data['profile']['intro']='共享数据修订 <script>不可执行</script>'
+        out=self.render()
+        for name in ('index.html','github.html'):
+            self.assertIn('共享数据修订 &lt;script&gt;',out[name])
+            self.assertNotIn('<script>不可执行</script>',out[name])
+        self.assertEqual(json.loads(out['home-data.json'])['profile']['intro'],self.data['profile']['intro'])
+
+    def test_private_content_or_unpublished_link_cannot_enter_homepages(self):
+        self.data['profile']['intro']='https://github.com/HollowKnight-AI/Life-Vault'
+        with self.assertRaises(ValueError):self.render()
+        self.data['profile']['intro']='公开简介'
+        self.data['posts'][0]['url']='notes/not-published.html'
+        with self.assertRaises(ValueError):self.render()
+
+
 if __name__=='__main__':unittest.main()

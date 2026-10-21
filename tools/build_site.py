@@ -122,6 +122,17 @@ def build(root, destination=None):
     writes['.nojekyll'] = ''
     for name in ('style.css', 'site.js'):
         writes[name] = (root / 'site-assets' / name).read_text(encoding='utf8')
+    if (root / 'site-home.json').is_file():
+        import importlib.util
+        spec = importlib.util.spec_from_file_location('render_homes', Path(__file__).with_name('render_homes.py'))
+        homes = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(homes)
+        writes['notebook.html'] = writes['index.html']
+        writes.update(homes.render(root, compiled))
+        design = markdown.markdown((root / 'DESIGN.md').read_text(encoding='utf8'), extensions=['tables'])
+        writes['design.html'] = '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>来源与许可</title><link rel="stylesheet" href="style.css"></head><body><main><p><a href="index.html?style=vcard">vCard 首页</a> · <a href="github.html?style=github">GitHub 首页</a></p><article>' + design + '</article></main></body></html>'
+        for name, vendor in [('github-personal-website.txt','github/LICENSE.txt'), ('vcard-personal-portfolio.txt','vcard/LICENSE')]:
+            writes['licenses/' + name] = (root / 'vendor' / vendor).read_text(encoding='utf8')
     # Validate and render every page before creating output files.
     for relative in writes:
         if not (destination / relative).resolve().is_relative_to(destination):
@@ -129,7 +140,7 @@ def build(root, destination=None):
     for relative, content in writes.items():
         p = destination / relative
         p.parent.mkdir(parents=True, exist_ok=True)
-        p.write_text(content, encoding='utf8')
+        p.write_bytes(content.encode('utf8'))
     return {'pages': len(pages), 'files': len(writes), 'destination': str(destination), 'hosting_enabled': False}
 
 
