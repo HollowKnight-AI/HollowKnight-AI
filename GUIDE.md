@@ -56,9 +56,10 @@
 | [MaggieAppleton/digital-gardeners](https://github.com/MaggieAppleton/digital-gardeners) | 笔记可以逐步生长，用相关链接把想法串起来 | 状态标记、持续修订、相关笔记链接 |
 | [brainsparker/you.md](https://github.com/brainsparker/you.md) | 把背景和沟通偏好放在可读、可修改、可携带的文件里 | 保留简洁的 `AI_CONTEXT.md`，按需提供更多文件 |
 
-目前采用 Markdown 文件与 GitHub 版本记录即可。随着内容积累，再根据实际检索和阅读需求考虑网站搜索、双向链接或发布工具。
+Markdown 与 GitHub 版本记录继续作为维护入口。现在增加了一个由明确公开文件清单生成的网站版本，支持全文关键词搜索、反向链接、可点击的关联图、RSS 与手机布局；源码和生成文件均在本公开仓库内。构建方式与托管状态见 [网站说明](SITE.md)，生成文件不等于已上线。
 
 ## 让记录可信
 
 本人确认的信息才进入个人介绍；AI 可以帮助整理和核对，未确认的推测保留为草稿。引用、自己的理解和实际结果尽量写清楚。私人资料和未公开研究内容留在适合的私人位置。
+
 

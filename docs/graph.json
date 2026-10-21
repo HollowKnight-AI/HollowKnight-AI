@@ -1,0 +1,166 @@
+{
+  "nodes": [
+    {
+      "id": "README.md",
+      "title": "首页",
+      "path": "index.html"
+    },
+    {
+      "id": "ABOUT.md",
+      "title": "关于我",
+      "path": "ABOUT.html"
+    },
+    {
+      "id": "NOW.md",
+      "title": "近期状态",
+      "path": "NOW.html"
+    },
+    {
+      "id": "PROJECTS.md",
+      "title": "实践与作品",
+      "path": "PROJECTS.html"
+    },
+    {
+      "id": "JOURNAL.md",
+      "title": "记录与思考",
+      "path": "JOURNAL.html"
+    },
+    {
+      "id": "WORK_WITH_ME.md",
+      "title": "协作偏好",
+      "path": "WORK_WITH_ME.html"
+    },
+    {
+      "id": "AI_CONTEXT.md",
+      "title": "AI 背景摘要",
+      "path": "AI_CONTEXT.html"
+    },
+    {
+      "id": "notes/2026-10-21-public-profile.md",
+      "title": "让个人档案开始积累记录",
+      "path": "notes/2026-10-21-public-profile.html"
+    }
+  ],
+  "edges": [
+    {
+      "source": "README.md",
+      "target": "ABOUT.md"
+    },
+    {
+      "source": "README.md",
+      "target": "NOW.md"
+    },
+    {
+      "source": "README.md",
+      "target": "JOURNAL.md"
+    },
+    {
+      "source": "README.md",
+      "target": "PROJECTS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "WORK_WITH_ME.md"
+    },
+    {
+      "source": "README.md",
+      "target": "AI_CONTEXT.md"
+    },
+    {
+      "source": "README.md",
+      "target": "notes/2026-10-21-public-profile.md"
+    },
+    {
+      "source": "ABOUT.md",
+      "target": "README.md"
+    },
+    {
+      "source": "ABOUT.md",
+      "target": "NOW.md"
+    },
+    {
+      "source": "ABOUT.md",
+      "target": "JOURNAL.md"
+    },
+    {
+      "source": "ABOUT.md",
+      "target": "PROJECTS.md"
+    },
+    {
+      "source": "NOW.md",
+      "target": "README.md"
+    },
+    {
+      "source": "NOW.md",
+      "target": "JOURNAL.md"
+    },
+    {
+      "source": "NOW.md",
+      "target": "PROJECTS.md"
+    },
+    {
+      "source": "NOW.md",
+      "target": "notes/2026-10-21-public-profile.md"
+    },
+    {
+      "source": "PROJECTS.md",
+      "target": "README.md"
+    },
+    {
+      "source": "PROJECTS.md",
+      "target": "NOW.md"
+    },
+    {
+      "source": "PROJECTS.md",
+      "target": "JOURNAL.md"
+    },
+    {
+      "source": "PROJECTS.md",
+      "target": "notes/2026-10-21-public-profile.md"
+    },
+    {
+      "source": "JOURNAL.md",
+      "target": "README.md"
+    },
+    {
+      "source": "JOURNAL.md",
+      "target": "NOW.md"
+    },
+    {
+      "source": "JOURNAL.md",
+      "target": "PROJECTS.md"
+    },
+    {
+      "source": "JOURNAL.md",
+      "target": "notes/2026-10-21-public-profile.md"
+    },
+    {
+      "source": "AI_CONTEXT.md",
+      "target": "ABOUT.md"
+    },
+    {
+      "source": "AI_CONTEXT.md",
+      "target": "NOW.md"
+    },
+    {
+      "source": "AI_CONTEXT.md",
+      "target": "WORK_WITH_ME.md"
+    },
+    {
+      "source": "AI_CONTEXT.md",
+      "target": "PROJECTS.md"
+    },
+    {
+      "source": "AI_CONTEXT.md",
+      "target": "JOURNAL.md"
+    },
+    {
+      "source": "notes/2026-10-21-public-profile.md",
+      "target": "JOURNAL.md"
+    },
+    {
+      "source": "notes/2026-10-21-public-profile.md",
+      "target": "README.md"
+    }
+  ]
+}
