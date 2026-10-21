@@ -19,7 +19,7 @@ python -m http.server 8766 --bind 127.0.0.1 --directory docs
 
 ## 托管
 
-网站文件已生成。托管是否生效应以实际 GitHub Pages 配置和可访问结果为准，生成文件不代表已经上线。可使用 GitHub Pages 的 `main` 分支 `/docs` 目录部署；预期地址为 `https://hollowknight-ai.github.io/HollowKnight-AI/`。启用和部署成功后再在首页添加已核验的网站链接。
+网站已于 2026-10-21 部署并核验：[打开公开档案](https://hollowknight-ai.github.io/HollowKnight-AI/)。GitHub Pages 使用 `main` 分支的 `/docs` 目录；提交生成页面后，部署任务会自动更新网站。若页面未更新，请先检查仓库 Actions 中的 Pages 部署结果。
 
 当前有全文关键词搜索、反向链接、可点击的关联图、RSS、代码块、表格与手机布局。公式源码会保留；浏览器中的专业数学排版和语义搜索尚未接入。
 

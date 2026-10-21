@@ -10,6 +10,8 @@ Theoretical Physics · Correlated Topological Quantum Matter · Materials Calcul
 
 ## 从这里开始
 
+[打开网站版：我的公开档案](https://hollowknight-ai.github.io/HollowKnight-AI/)
+
 | 想看什么 | 入口 |
 | --- | --- |
 | 了解我与我的关注点 | [关于我](ABOUT.md) |
@@ -44,3 +46,4 @@ Theoretical Physics · Correlated Topological Quantum Matter · Materials Calcul
 - **GitHub**：[@HollowKnight-AI](https://github.com/HollowKnight-AI)
 - **学术 / 校内邮箱**：`3023210063@tju.edu.cn`
 - **个人邮箱**：`laylafjbgwuehrebqgsd@gmail.com`
+
