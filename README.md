@@ -8,6 +8,23 @@ Theoretical Physics · Correlated Topological Quantum Matter · Materials Calcul
 
 我希望在互联网上留下一些属于自己的痕迹：自己的想法、做过的事，以及一路上的变化。
 
+## 从这里开始
+
+| 想看什么 | 入口 |
+| --- | --- |
+| 了解我与我的关注点 | [关于我](ABOUT.md) |
+| 看最近在做什么 | [近期状态](NOW.md) |
+| 看学习、实践和想法 | [记录与思考](JOURNAL.md) |
+| 看做过的事与公开成果 | [实践与作品](PROJECTS.md) |
+| 与我协作，或让新 AI 了解背景 | [协作偏好](WORK_WITH_ME.md) · [AI 摘要](AI_CONTEXT.md) · [使用说明](USE_WITH_AI.md) |
+
+## 最近留下的记录
+
+**2026-10-21** · [让个人档案开始积累记录](notes/2026-10-21-public-profile.md)  
+从个人介绍出发，加入短笔记、实践记录和可供不同 AI 读取的背景资料。
+
+[全部记录](JOURNAL.md) · [怎样写下一篇](GUIDE.md) · [仓库更新](CHANGELOG.md)
+
 ## 🎓 教育背景 / Education
 
 | 阶段 / 周期 | 学校 / 科研院所 | 院系与方向 | 校徽 / 所徽 |
@@ -22,10 +39,8 @@ Theoretical Physics · Correlated Topological Quantum Matter · Materials Calcul
 
 我也希望它成为与不同 AI 协作的共同起点。换一个工具时，我仍然可以带着自己的背景和偏好继续交流，并逐步积累这些资料。
 
-## 🔗 从这里认识我 / Connect with Me
+## 🔗 联系方式 / Contact
 
-- [关于我](ABOUT.md)：我的关注点，以及建立这个档案的原因。
-- **个人主页 / Blog**：[hollowknight-ai.github.io](https://hollowknight-ai.github.io/)
 - **GitHub**：[@HollowKnight-AI](https://github.com/HollowKnight-AI)
 - **学术 / 校内邮箱**：`3023210063@tju.edu.cn`
 - **个人邮箱**：`laylafjbgwuehrebqgsd@gmail.com`
