@@ -1,5 +1,7 @@
 # 关于我
 
+[首页](README.md) · [近期状态](NOW.md) · [记录与思考](JOURNAL.md)
+
 个人介绍，持续更新。
 
 ## 我的背景
@@ -45,4 +47,8 @@
 
 ## 联系方式
 
-如果以后希望公开联系方式，会在这里补充。
+- 学校邮箱：`3023210063@tju.edu.cn`
+- 个人邮箱：`laylafjbgwuehrebqgsd@gmail.com`
+- GitHub：[@HollowKnight-AI](https://github.com/HollowKnight-AI)
+
+邮箱由本人于 2026-10-21 明确提供。
