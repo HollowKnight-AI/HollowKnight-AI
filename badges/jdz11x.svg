@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <circle cx="22" cy="22" r="20" fill="#e65100" />
+  <circle cx="22" cy="22" r="17" fill="none" stroke="#ffffff" stroke-width="1.5" />
+  <text x="22" y="25" font-family="sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">十一小</text>
+</svg>
