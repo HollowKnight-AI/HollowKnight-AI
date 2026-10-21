@@ -1,13 +1,43 @@
 {
   "repository": "HollowKnight-AI/HollowKnight-AI",
   "pages": [
-    {"source": "README.md", "title": "首页"},
-    {"source": "ABOUT.md", "title": "关于我"},
-    {"source": "NOW.md", "title": "近期状态"},
-    {"source": "PROJECTS.md", "title": "实践与作品"},
-    {"source": "JOURNAL.md", "title": "记录与思考"},
-    {"source": "WORK_WITH_ME.md", "title": "协作偏好"},
-    {"source": "AI_CONTEXT.md", "title": "AI 背景摘要"},
-    {"source": "notes/2026-10-21-public-profile.md", "title": "让个人档案开始积累记录", "published": "2026-10-21"}
+    {
+      "source": "README.md",
+      "title": "首页"
+    },
+    {
+      "source": "ABOUT.md",
+      "title": "关于我"
+    },
+    {
+      "source": "NOW.md",
+      "title": "近期状态"
+    },
+    {
+      "source": "PROJECTS.md",
+      "title": "实践与作品"
+    },
+    {
+      "source": "JOURNAL.md",
+      "title": "记录与思考"
+    },
+    {
+      "source": "WORK_WITH_ME.md",
+      "title": "协作偏好"
+    },
+    {
+      "source": "AI_CONTEXT.md",
+      "title": "AI 背景摘要"
+    },
+    {
+      "source": "notes/2026-10-21-public-profile.md",
+      "title": "让个人档案开始积累记录",
+      "published": "2026-10-21"
+    },
+    {
+      "source": "notes/2026-10-15-taishan.md",
+      "title": "泰山之旅",
+      "published": "2026-10-21"
+    }
   ]
 }

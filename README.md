@@ -22,6 +22,9 @@ Theoretical Physics · Correlated Topological Quantum Matter · Materials Calcul
 
 ## 最近留下的记录
 
+**2026-10-15—16 · 旅行** · [泰山之旅](notes/2026-10-15-taishan.md)  
+两天的泰山之行，山景、合影与沿途见闻。10 月 21 日归档，共 15 张图片。
+
 **2026-10-21** · [让个人档案开始积累记录](notes/2026-10-21-public-profile.md)  
 从个人介绍出发，加入短笔记、实践记录和可供不同 AI 读取的背景资料。
 

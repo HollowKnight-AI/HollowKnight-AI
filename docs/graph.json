@@ -39,6 +39,11 @@
       "id": "notes/2026-10-21-public-profile.md",
       "title": "让个人档案开始积累记录",
       "path": "notes/2026-10-21-public-profile.html"
+    },
+    {
+      "id": "notes/2026-10-15-taishan.md",
+      "title": "泰山之旅",
+      "path": "notes/2026-10-15-taishan.html"
     }
   ],
   "edges": [
@@ -68,6 +73,10 @@
     },
     {
       "source": "README.md",
+      "target": "notes/2026-10-15-taishan.md"
+    },
+    {
+      "source": "README.md",
       "target": "notes/2026-10-21-public-profile.md"
     },
     {
@@ -129,6 +138,10 @@
     {
       "source": "JOURNAL.md",
       "target": "PROJECTS.md"
+    },
+    {
+      "source": "JOURNAL.md",
+      "target": "notes/2026-10-15-taishan.md"
     },
     {
       "source": "JOURNAL.md",
@@ -161,6 +174,14 @@
     {
       "source": "notes/2026-10-21-public-profile.md",
       "target": "README.md"
+    },
+    {
+      "source": "notes/2026-10-15-taishan.md",
+      "target": "README.md"
+    },
+    {
+      "source": "notes/2026-10-15-taishan.md",
+      "target": "JOURNAL.md"
     }
   ]
 }
