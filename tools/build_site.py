@@ -5,6 +5,7 @@ import argparse
 from datetime import datetime, timezone
 from email.utils import format_datetime
 import html
+import hashlib
 from html.parser import HTMLParser
 import json
 from pathlib import Path, PurePosixPath
@@ -69,6 +70,7 @@ def build(root, destination=None):
     selected = {p['source'] for p in pages}
     if 'README.md' not in selected:
         raise ValueError('公开页面需要首页')
+    asset_versions = {name: hashlib.sha256((root / 'site-assets' / name).read_text(encoding='utf8').encode('utf8')).hexdigest()[:12] for name in ('style.css', 'site.js')}
     compiled, edges = {}, []
     for page in pages:
         source = page['source']
@@ -94,7 +96,7 @@ def build(root, destination=None):
         incoming = sorted({edge['source'] for edge in edges if edge['target'] == source})
         backlinks = '<section class="backlinks"><h2>哪些页面链接到这里</h2>' + (''.join('<a href="' + prefix + output_name(s) + '">' + html.escape(compiled[s]['title']) + '</a>' for s in incoming) or '<p>暂时没有其他页面链接到这里。</p>') + '</section>'
         graph = '<section class="connections"><h2>档案之间的联系</h2><div id="graph"></div></section>' if source == 'README.md' else ''
-        template = '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="王鑫烨的公开个人档案、学习与思考"><title>' + html.escape(page['title']) + ' · 王鑫烨</title><link rel="stylesheet" href="' + prefix + 'style.css"><link rel="alternate" type="application/rss+xml" title="公开记录" href="' + prefix + 'feed.xml"><script defer src="' + prefix + 'site.js" data-prefix="' + prefix + '"></script></head><body><aside><p class="eyebrow">AN OPEN NOTEBOOK</p><a class="brand" href="' + prefix + 'index.html">王鑫烨<span>理论物理 · AI · 记录</span></a><nav>' + nav + '</nav><a class="repo" href="https://github.com/' + REPOSITORY + '">GitHub ↗</a></aside><main><header><label>搜索公开档案<input id="search" type="search" placeholder="知识、文章、项目…"></label><a href="' + prefix + 'feed.xml">RSS ↗</a></header><div id="results" aria-live="polite"></div><article>' + page['body'] + '</article>' + backlinks + graph + '<footer>持续修改，逐步生长。<a href="https://github.com/' + REPOSITORY + '/blob/main/' + source + '">查看原文与修订历史 ↗</a></footer></main></body></html>'
+        template = '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="王鑫烨的公开个人档案、学习与思考"><title>' + html.escape(page['title']) + ' · 王鑫烨</title><link rel="stylesheet" href="' + prefix + 'style.css?v=' + asset_versions['style.css'] + '"><link rel="alternate" type="application/rss+xml" title="公开记录" href="' + prefix + 'feed.xml"><script defer src="' + prefix + 'site.js?v=' + asset_versions['site.js'] + '" data-prefix="' + prefix + '"></script></head><body><aside><p class="eyebrow">AN OPEN NOTEBOOK</p><a class="brand" href="' + prefix + 'index.html">王鑫烨<span>理论物理 · AI · 记录</span></a><nav>' + nav + '</nav><a class="repo" href="https://github.com/' + REPOSITORY + '">GitHub ↗</a></aside><main><header><label>搜索公开档案<input id="search" type="search" placeholder="知识、文章、项目…"></label><a href="' + prefix + 'feed.xml">RSS ↗</a></header><div id="results" aria-live="polite"></div><article>' + page['body'] + '</article>' + backlinks + graph + '<footer>持续修改，逐步生长。<a href="https://github.com/' + REPOSITORY + '/blob/main/' + source + '">查看原文与修订历史 ↗</a></footer></main></body></html>'
         writes[output_name(source)] = template
     search = [{'source': s, 'title': p['title'], 'path': output_name(s), 'text': p['text']} for s,p in compiled.items()]
     writes['search.json'] = json.dumps(search, ensure_ascii=False, indent=2)

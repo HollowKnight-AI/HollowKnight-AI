@@ -1,5 +1,6 @@
 import importlib.util
 import json
+import re
 from pathlib import Path
 import tempfile
 import unittest
@@ -50,6 +51,21 @@ class SiteTests(unittest.TestCase):
         (self.root/'MEMORY.md').write_text('private',encoding='utf8')
         with self.assertRaises(ValueError):site.build(self.root)
         self.assertFalse((self.root/'docs').exists())
+
+    def test_asset_updates_change_only_the_affected_asset_url(self):
+        site.build(self.root)
+        home=(self.root/'docs/index.html').read_text(encoding='utf8')
+        css=lambda text:re.search(r'href="([^"]*style\.css\?v=[^"]+)"',text).group(1)
+        js=lambda text:re.search(r'src="([^"]*site\.js\?v=[^"]+)"',text).group(1)
+        before_css,before_js=css(home),js(home)
+        (self.root/'site-assets/style.css').write_text('.travel-gallery{display:grid}',encoding='utf8')
+        site.build(self.root)
+        updated=(self.root/'docs/index.html').read_text(encoding='utf8')
+        article=(self.root/'docs/notes/test.html').read_text(encoding='utf8')
+        self.assertNotEqual(before_css,css(updated))
+        self.assertEqual(before_js,js(updated))
+        self.assertEqual('../'+css(updated),css(article))
+        self.assertEqual('.travel-gallery{display:grid}',(self.root/'docs/style.css').read_text(encoding='utf8'))
 
     def test_refuses_escaping_or_unlisted_sources(self):
         for source in ('../private.md','metadata/records/a.md','MEMORY.md'):
