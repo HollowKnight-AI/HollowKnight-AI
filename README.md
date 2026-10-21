@@ -27,5 +27,3 @@ Theoretical Physics · Correlated Topological Quantum Matter · Materials Calcul
 - [关于我](ABOUT.md)：我的关注点，以及建立这个档案的原因。
 - **个人主页 / Blog**：[hollowknight-ai.github.io](https://hollowknight-ai.github.io/)
 - **GitHub**：[@HollowKnight-AI](https://github.com/HollowKnight-AI)
-- **学术 / 校内邮箱**：`wangxinye@tju.edu.cn`
-- **个人 / 常用邮箱**：`wangxinye.phys@gmail.com`
