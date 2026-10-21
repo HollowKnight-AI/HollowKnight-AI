@@ -11,12 +11,12 @@ Theoretical Physics · Correlated Topological Quantum Matter · Materials Calcul
 ## 🎓 教育背景 / Education
 
 | 阶段 / 周期 | 学校 / 科研院所 | 院系与方向 | 徽标 / 标志 |
-| :--- | :--- | :--- | :---: |
-| **硕博连读**<br>`2027 – 至今` | **中国科学院大学 / 中国科学院物理研究所**<br>*(Institute of Physics, CAS)* | 理论物理 (T03组)<br>关联拓扑量子物态 · 材料计算 | `[中科院院徽]` `[物理所所徽]` |
-| **本科**<br>`2023 – 2027` | **天津大学**<br>*(Tianjin University)* | 应用物理学<br>严济慈物理学英才班 | `[天津大学校徽]` |
-| **高中**<br>`2020 – 2023` | **景德镇市第一中学**<br>*(Jingdezhen No.1 High School)* | 高中部 | `[景德镇一中校徽]` |
-| **初中**<br>`2017 – 2020` | **景德镇市第五中学** | 初中部 | `[景德镇五中校徽]` |
-| **小学**<br>`2011 – 2017` | **景德镇市第十一小学** | 小学阶段 | `[十一小校徽]` |
+| :--- | :--- | :--- | :--- |
+| **硕博连读**<br>`2027 - 至今` | **中国科学院大学 / 中国科学院物理研究所**<br>*(Institute of Physics, CAS)* | 理论物理 (T03组)<br>关联拓扑量子物态 · 材料计算 | <img src="https://www.cas.cn/images/cas_logo.png" height="38"> <img src="http://www.iop.cas.cn/images/logo.png" height="38"> |
+| **本科**<br>`2023 - 2027` | **天津大学**<br>*(Tianjin University)* | 应用物理学<br>严济慈物理学英才班 | <img src="https://www.tju.edu.cn/images/logo.png" height="38"> |
+| **高中**<br>`2020 - 2023` | **景德镇市第一中学**<br>*(Jingdezhen No.1 High School)* | 高中部 | <img src="https://www.jdzsyz.com/images/logo.png" height="38"> |
+| **初中**<br>`2017 - 2020` | **景德镇市第五中学** | 初中部 | <img src="https://www.jdz5z.com/images/logo.png" height="38"> |
+| **小学**<br>`2011 - 2017` | **景德镇市第十一小学** | 小学阶段 | <img src="https://www.jdz11x.com/images/logo.png" height="38"> |
 
 这里是我的个人档案。我会持续修改、补充，让它随着我的经历一起生长。
 
@@ -24,9 +24,4 @@ Theoretical Physics · Correlated Topological Quantum Matter · Materials Calcul
 
 ## 从这里认识我
 
-- [关于我](ABOUT.md): 我的关注点，以及建立这个档案的原因。
-- [与我协作](WORK_WITH_ME.md): 如何一起完善这个档案。
-- [最近在做什么](NOW.md): 我当前的计划和进展。
-- [实践与记录](PROJECTS.md): 科研、学习方法与 AI 协作的实践。
-- [给 AI 的背景摘要](AI_CONTEXT.md): 可以直接交给不同 AI 阅读的一份简短资料。
-- [如何使用本页面](USE_WITH_AI.md): 换一个 AI 助手继续使用此档案的指南。
+- [关于我](ABOUT.md)：我的关注点，以及建立这个档案的原因。
